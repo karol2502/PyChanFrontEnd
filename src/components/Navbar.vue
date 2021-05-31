@@ -5,7 +5,7 @@
     </router-link>
     <div class="subPages">
       <router-link class="nav" to="/commands">Komendy</router-link>
-      <router-link class="nav" to="/about">O nas</router-link>
+      <router-link class="nav" to="/about">Twórcy</router-link>
     </div>
   </div>
 </template>
