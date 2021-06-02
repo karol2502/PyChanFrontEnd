@@ -1,7 +1,7 @@
 <template>
   <v-app>
-    <NavBar />
-    <router-view />
+    <NavBar/>
+    <router-view/>
   </v-app>
 </template>
 
@@ -14,8 +14,8 @@ export default {
   components: {
     NavBar,
   },
-  data: () => ({
-    //
-  }),
+  created() {
+    document.title = "PyChan";
+  },
 };
 </script>
